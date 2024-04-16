@@ -1,0 +1,53 @@
+body {
+  background-image: url(https://picsum.photos/seed/picsum/500/400);
+  background-repeat: no-repeat;
+}
+
+.App {
+  width: 480px;
+}
+
+.container {
+  text-align: center;
+}
+
+.formInput {
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  background: transparent;
+  border: none;
+  outline: invert;
+  font-size: 25px;
+  color: rgb(202, 55, 10);
+}
+
+
+
+
+.buttonSearch {
+  background: transparent;
+  border: none;
+
+  border-bottom: 3px solid rgb(202, 55, 10);
+  padding: 0px;
+  font-size: 20px;
+  width: 80px;
+  height: 30px;
+  color: rgb(202, 55, 10);
+}
+
+.cityTemp {
+  font-size: 30px;
+}
+
+.feelsTempHum {
+  font-size: 20px;
+  color: rgb(247, 94, 6);
+  display: grid;
+}
+
+.forecastContainer {
+  display: flex;
+  justify-content: space-between;
+}
